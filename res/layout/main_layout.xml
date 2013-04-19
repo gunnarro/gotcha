@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+   		
+    	<TextView android:id="@+id/main_view"
+	        android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:gravity="left"/>
+        
+       <Button android:id="@+id/show_my_location"
+	        android:text="View My Location"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"/>
+	        	
+	    <Button android:id="@+id/test_gotcha"
+	        android:text="Test Gotcha"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"/>
+	        
+	    <Button android:id="@+id/test_send_mail"
+	        android:text="Test Send mail"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"/>
+	        
+        <Button android:id="@+id/main_view_close"
+	        android:text="@string/close"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"/>
+	        
+	    <Spinner android:id="@+id/sms_actions_spinner"
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dip"
+		    android:prompt="@string/spinner_view_by"/>
+	        
+ </LinearLayout>
+	     
+	
